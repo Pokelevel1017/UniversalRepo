@@ -7,6 +7,43 @@
   "patreonURL": "https://patreon.com/altstudio",
   "tintColor": "#000000",
   "featuredApps": [],
-  "apps": [],
+  "apps": [
+    {
+      "name": "My Example App",
+      "bundleIdentifier": "com.cbbaccyxt6.pvnqf7q9ic",
+      "marketplaceID": "",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://i.imgur.com/cy22whi.jpeg",
+      "tintColor": "#000000",
+      "category": "other",
+      "screenshots": [],
+      "versions": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
+    },
+    {
+      "name": "My Example App",
+      "bundleIdentifier": "com.n1bvepz2yq.vbkfaw0y72",
+      "marketplaceID": "",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://i.imgur.com/cy22whi.jpeg",
+      "tintColor": "#000000",
+      "category": "other",
+      "screenshots": [],
+      "versions": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
+    }
+  ],
   "news": []
 }
