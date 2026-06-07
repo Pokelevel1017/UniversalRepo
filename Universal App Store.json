@@ -1,0 +1,12 @@
+{
+  "name": "Universal App Store",
+  "subtitle": "The best 3rd party store!",
+  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "iconURL": "https://i.imgur.com/Rpo9QW9.png",
+  "website": "https://altstudio.app",
+  "patreonURL": "https://patreon.com/altstudio",
+  "tintColor": "#000000",
+  "featuredApps": [],
+  "apps": [],
+  "news": []
+}
