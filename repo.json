@@ -1,190 +1,110 @@
 {
   "name": "Universal Repo",
   "subtitle": "One of the best app stores!",
-  "description": "Universal Repo is a curated IPA repository for iOS devices, offering a wide range of ready-to-install apps, utilities, and tweaks for sideloading tools like SideStore, AltServer, and other IPA installers. It is designed to make app discovery and sideloading simple by providing organized, up-to-date IPA files in one centralized location. Perfect for users who want quick access to modified, legacy, or utility iOS apps without relying on the App Store.",
+  "description": "Universal Repo is a curated IPA repository for iOS devices, offering a wide range of ready-to-install apps, utilities, and tweaks for sideloading tools like Scarlet, SideStore, AltServer, and other IPA installers.",
   "iconURL": "https://i.imgur.com/qMkkdPo.png",
-  "website": "",
-  "patreonURL": "",
   "tintColor": "#000000",
   "featuredApps": [],
   "apps": [
     {
       "name": "UTM SE",
       "bundleIdentifier": "com.utmapp.UTM-SE",
-      "marketplaceID": "",
       "developerName": "Turing Software, LLC",
       "subtitle": "A simplified UTM build for running virtual machines on iPhone and iPad.",
-      "localizedDescription": "UTM SE (Slow Edition) is a streamlined version of UTM designed for iOS and iPadOS devices, allowing users to run virtual machines without requiring JIT compilation. Compatible with iOS 14.0 and later, it uses software emulation (QEMU-based) to run operating systems like Linux and Windows, though with reduced performance compared to full UTM builds. It is commonly used as a sideloadable alternative for users who cannot enable JIT, making virtualization more accessible on iPhones and iPads at the cost of speed.",
+      "localizedDescription": "UTM SE is a streamlined version of UTM designed for iOS and iPadOS devices, allowing users to run virtual machines without JIT. Compatible with iOS 14.0+.",
       "iconURL": "https://i.imgur.com/5Tn225X.png",
       "tintColor": "#3c7cec",
       "category": "other",
       "screenshots": [],
+      "minOSVersion": "14.0",
       "versions": [
         {
-          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-SE.ipa",
-          "size": 213900000,
           "version": "4.7.5",
-          "buildVersion": null,
-          "date": "2026-06-07T18:59:00-04:00",
-          "localizedDescription": null,
-          "minOSVersion": null
+          "date": "2026-06-07T22:59:00Z",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-SE.ipa",
+          "size": 213900000
         }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSAccentColorName": "AccentColor",
-          "NSLocalNetworkUsageDescription": "The virtual machine may access the local network. UTM may also use the network to communicate with local servers.",
-          "NSMicrophoneUsageDescription": "Permission is required for any virtual machine to record from the microphone."
-        }
-      },
-      "patreon": {}
+      ]
     },
     {
       "name": "UTM",
       "bundleIdentifier": "com.utmapp.UTM",
-      "marketplaceID": "",
-      "developerName": "Turing Software, LLC (built on the QEMU project)",
-      "subtitle": "Run Windows, Linux, and other operating systems on your iPhone, iPad, and Mac.",
-      "localizedDescription": "UTM is a virtualization and emulation app for iOS, iPadOS, and macOS that lets users run full desktop operating systems such as Windows, Linux, and macOS in a sandboxed virtual machine. Compatible with iOS 14.0 and later, it is built on QEMU and supports both emulation (for different CPU architectures) and virtualization (on supported devices for better performance). UTM is widely used for development, testing, and education, allowing users to experiment with different operating systems and software environments directly on Apple devices.",
+      "developerName": "Turing Software, LLC",
+      "subtitle": "Run Windows, Linux, and other operating systems.",
+      "localizedDescription": "UTM is a virtualization app for iOS 14.0+ built on QEMU.",
       "iconURL": "https://i.imgur.com/piQ66nD.png",
       "tintColor": "#3c7cec",
       "category": "other",
       "screenshots": [],
+      "minOSVersion": "14.0",
       "versions": [
         {
-          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
-          "size": 130100000,
           "version": "4.7.5",
-          "buildVersion": null,
-          "date": "2026-06-07T18:58:00-04:00",
-          "localizedDescription": null,
-          "minOSVersion": null
+          "date": "2026-06-07T22:58:00Z",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
+          "size": 130100000
         }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSAccentColorName": "AccentColor",
-          "NSLocalNetworkUsageDescription": "The virtual machine may access the local network. UTM may also use the network to communicate with local servers.",
-          "NSLocationAlwaysAndWhenInUseUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
-          "NSLocationAlwaysUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
-          "NSLocationWhenInUseUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
-          "NSMicrophoneUsageDescription": "Permission is required for any virtual machine to record from the microphone."
-        }
-      },
-      "patreon": {}
+      ]
     },
     {
       "name": "Flappy Bird",
       "bundleIdentifier": "org.brandonplank.flappybird",
-      "marketplaceID": "",
       "developerName": "brandonplank",
-      "subtitle": "A simple open-source Flappy Bird remake for iOS and other platforms.",
-      "localizedDescription": "Flappy Bird is an open-source remake of the classic arcade-style game, built and released by brandonplank on GitHub. Compatible with modern iOS versions depending on the build method (typically iOS 11.0+ when sideloaded), the game recreates the original tap-to-fly mechanics where players guide a bird through endless pipes while avoiding collisions. Designed as a lightweight learning and demo project, it showcases basic game physics, collision detection, and score tracking in a minimal, accessible format.",
+      "subtitle": "A simple Flappy Bird remake.",
+      "localizedDescription": "Open-source Flappy Bird clone for iOS 11.0+.",
       "iconURL": "https://i.imgur.com/32WNzoZ.png",
       "tintColor": "#7ce49c",
       "category": "other",
       "screenshots": [],
+      "minOSVersion": "11.0",
       "versions": [
         {
-          "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.3/org.brandonplank.flappybird.ipa",
-          "size": 2100000,
           "version": "4.3",
-          "buildVersion": null,
-          "date": "2026-06-07T18:54:00-04:00",
-          "localizedDescription": null,
-          "minOSVersion": null
+          "date": "2026-06-07T22:54:00Z",
+          "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.3/org.brandonplank.flappybird.ipa",
+          "size": 2100000
         }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      },
-      "patreon": {}
+      ]
     },
     {
       "name": "OldOS",
-      "bundleIdentifier": "com.zrc.BudgetingBuddy",
-      "marketplaceID": "",
+      "bundleIdentifier": "com.zane.oldos",
       "developerName": "Zane Kleinberg",
-      "subtitle": "A fully interactive recreation of classic iOS for modern iPhones and iPads.",
-      "localizedDescription": "OldOS is a nostalgia-driven iOS application that recreates the look and feel of early iPhone software (iPhone OS 1–4 style) as a fully interactive experience on modern devices. Compatible with iOS 14.0 and later, it simulates the original UI, system apps, animations, and interactions in a sandboxed environment using modern frameworks like SwiftUI. Designed as both a tribute and a functional demo, OldOS lets users explore and interact with a historically accurate version of early iOS without leaving their current device environment.",
+      "subtitle": "Classic iOS recreation experience.",
+      "localizedDescription": "OldOS recreates early iPhone OS UI for iOS 14.0+ devices.",
       "iconURL": "https://i.imgur.com/gfqniWg.png",
       "tintColor": "#000000",
       "category": "other",
       "screenshots": [],
+      "minOSVersion": "14.0",
       "versions": [
         {
-          "downloadURL": "https://github.com/zzanehip/The-OldOS-Project/releases/download/2.0_7/OldOS.ipa",
-          "size": 83200000,
           "version": "1.0",
-          "buildVersion": null,
-          "date": "2026-06-07T18:51:00-04:00",
-          "localizedDescription": null,
-          "minOSVersion": null
+          "date": "2026-06-07T22:51:00Z",
+          "downloadURL": "https://github.com/zzanehip/The-OldOS-Project/releases/download/2.0_7/OldOS.ipa",
+          "size": 83200000
         }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSAppleMusicUsageDescription": "To view, play, and experience your music in OldOS, please enable access to your music library. ",
-          "NSCameraUsageDescription": "To take photos in OldOS, please enable access to your camera.",
-          "NSContactsUsageDescription": "To view and manage your contacts in OldOS, please enable access to your contacts list.",
-          "NSLocationAlwaysAndWhenInUseUsageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app.",
-          "NSLocationAlwaysUsageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app.",
-          "NSLocationWhenInUseUsageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app.",
-          "NSMicrophoneUsageDescription": "To record your audio while filming a video in OldOS, please in enable microphone access.",
-          "NSPhotoLibraryAddUsageDescription": "To view, manage, and add photos to your photo library in OldOS, please enable access. Then close and re-open the Photos app.",
-          "NSPhotoLibraryUsageDescription": "To view, manage, and add photos to your photo library in OldOS, please enable access. Then close and re-open the Photos app."
-        }
-      },
-      "patreon": {}
+      ]
     },
     {
       "name": "iPogo",
       "bundleIdentifier": "com.nianticlabs.pokemongo",
-      "marketplaceID": "",
       "developerName": "iPogo Team",
-      "subtitle": "Enhanced Pokémon GO experience with GPS spoofing and advanced in-game tools.",
-      "localizedDescription": "iPogo is a modified version of Pokémon GO designed for advanced gameplay features such as GPS location spoofing, enhanced map controls, auto-walking, IV checking, and encounter utilities. It is typically used on iOS devices through sideloading or third-party installation methods and is compatible with the same Pokémon GO client versions supported by Niantic’s official app (varies depending on update). iPogo is aimed at players who want expanded control and convenience features beyond the standard Pokémon GO experience, but it is not affiliated with Niantic and may violate the game’s terms of service.",
+      "subtitle": "Enhanced Pokémon GO experience.",
+      "localizedDescription": "Modified Pokémon GO client with added features. iOS compatibility varies by version.",
       "iconURL": "https://i.imgur.com/oadqZnW.png",
       "tintColor": "#2858d1",
       "category": "other",
       "screenshots": [],
+      "minOSVersion": "15.0",
       "versions": [
         {
-          "downloadURL": "https://ipogo.app/download/ipogo-4.2.6.ipa",
-          "size": 160800000,
           "version": "0.413.1",
-          "buildVersion": null,
-          "date": "2026-06-07T18:48:00-04:00",
-          "localizedDescription": null,
-          "minOSVersion": null
+          "date": "2026-06-07T22:48:00Z",
+          "downloadURL": "https://ipogo.app/download/ipogo-4.2.6.ipa",
+          "size": 160800000
         }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSAdvertisingAttributionReportEndpoint": "https://appsflyer-skadnetwork.com/",
-          "NSBluetoothAlwaysUsageDescription": "Allows pairing to devices including peripherals and consoles.",
-          "NSLocationAlwaysUsageDescription": "Set your device’s location permissions to Always to collect Candy, hatch Eggs, and earn rewards—even when Pokémon GO isn’t open!",
-          "NSCameraUsageDescription": "Enabling this setting allows you to use AR when catching Pokémon.",
-          "NSUserTrackingUsageDescription": "If you enable this setting, your information can be used to deliver personalized ads to you regarding Pokémon GO exclusive offers, promotions, and events.",
-          "NSBluetoothPeripheralUsageDescription": "Allows for usage of the Pokémon GO Plus",
-          "NSPhotoLibraryAddUsageDescription": "In order to save pictures of encountered Pokémon",
-          "NSMotionUsageDescription": "Pokémon GO requires your mobile device’s motion permissions to be enabled in order to let you know when new Pokémon are nearby.",
-          "NSHealthUpdateUsageDescription": "Pokémon GO needs your activity data to hatch Pokémon eggs, help your Pokémon find candies, and display total distance walked.",
-          "NSHealthShareUsageDescription": "Pokémon GO needs your activity data to hatch Pokémon eggs, help your Pokémon find candies, and display total distance walked.",
-          "NSCalendarsUsageDescription": "In order to add Live Event calendar items",
-          "NSLocationWhenInUseUsageDescription": "Pokémon GO requires your mobile device’s location permissions to be enabled in order to find Pokémon and PokéStops near you.",
-          "NSMicrophoneUsageDescription": "not used",
-          "NSLocationAlwaysAndWhenInUseUsageDescription": "Set your device’s location permissions to Always to collect Candy, hatch Eggs, and earn rewards—even when Pokémon GO isn’t open!",
-          "NSContactsUsageDescription": "Pokémon GO needs to access and upload your contacts to our servers to send game invites and friend requests to people in your address book.",
-          "NSPhotoLibraryUsageDescription": "In order to save pictures of encountered Pokémon"
-        }
-      },
-      "patreon": {}
+      ]
     }
   ],
   "news": []
