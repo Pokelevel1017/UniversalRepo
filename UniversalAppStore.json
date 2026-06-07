@@ -9,35 +9,27 @@
   "featuredApps": [],
   "apps": [
     {
-      "name": "My Example App",
-      "bundleIdentifier": "com.cbbaccyxt6.pvnqf7q9ic",
+      "name": "OldOS",
+      "bundleIdentifier": "com.zrc.BudgetingBuddy",
       "marketplaceID": "",
-      "developerName": "Example Developer",
-      "subtitle": "An awesome app.",
-      "localizedDescription": "This is an awesome app only available on AltStore.",
-      "iconURL": "https://i.imgur.com/cy22whi.jpeg",
+      "developerName": "Zane Kleinberg",
+      "subtitle": "A fully interactive recreation of classic iOS for modern iPhones and iPads.",
+      "localizedDescription": "OldOS is a nostalgia-driven iOS application that recreates the look and feel of early iPhone software (iPhone OS 1–4 style) as a fully interactive experience on modern devices. Compatible with iOS 14.0 and later, it simulates the original UI, system apps, animations, and interactions in a sandboxed environment using modern frameworks like SwiftUI. Designed as both a tribute and a functional demo, OldOS lets users explore and interact with a historically accurate version of early iOS without leaving their current device environment.",
+      "iconURL": "https://i.imgur.com/6taF16G.png",
       "tintColor": "#000000",
       "category": "other",
       "screenshots": [],
-      "versions": [],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      },
-      "patreon": {}
-    },
-    {
-      "name": "My Example App",
-      "bundleIdentifier": "com.n1bvepz2yq.vbkfaw0y72",
-      "marketplaceID": "",
-      "developerName": "Example Developer",
-      "subtitle": "An awesome app.",
-      "localizedDescription": "This is an awesome app only available on AltStore.",
-      "iconURL": "https://i.imgur.com/cy22whi.jpeg",
-      "tintColor": "#000000",
-      "category": "other",
-      "screenshots": [],
-      "versions": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/zzanehip/The-OldOS-Project/releases/download/2.0_7/OldOS.ipa",
+          "size": 83200000,
+          "version": "1.0",
+          "buildVersion": null,
+          "date": "2026-06-07T19:25:00-04:00",
+          "localizedDescription": null,
+          "minOSVersion": null
+        }
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
