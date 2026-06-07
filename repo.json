@@ -1,28 +1,29 @@
 {
   "name": "Universal Repo",
-  "subtitle": "One of the best app stores!",
-  "description": "Universal Repo is a curated IPA repository for iOS devices, offering a wide range of ready-to-install apps, utilities, and tweaks for sideloading tools like Scarlet, SideStore, AltServer, and other IPA installers.",
+  "subtitle": "One of the best IPA libraries",
+  "description": "Universal Repo is a curated IPA repository designed for Scarlet, SideStore, and AltStore users. It provides clean, structured access to apps, utilities, and modified tools for sideloading on iOS.",
   "iconURL": "https://i.imgur.com/qMkkdPo.png",
   "tintColor": "#000000",
+  "website": "",
   "featuredApps": [],
   "apps": [
     {
       "name": "UTM SE",
       "bundleIdentifier": "com.utmapp.UTM-SE",
       "developerName": "Turing Software, LLC",
-      "subtitle": "A simplified UTM build for running virtual machines on iPhone and iPad.",
-      "localizedDescription": "UTM SE is a streamlined version of UTM designed for iOS and iPadOS devices, allowing users to run virtual machines without JIT. Compatible with iOS 14.0+.",
+      "subtitle": "Run virtual machines on iOS without JIT.",
+      "localizedDescription": "UTM SE allows running Linux and Windows virtual machines on iOS 14+ using QEMU-based emulation without JIT.",
       "iconURL": "https://i.imgur.com/5Tn225X.png",
       "tintColor": "#3c7cec",
       "category": "other",
       "screenshots": [],
-      "minOSVersion": "14.0",
       "versions": [
         {
           "version": "4.7.5",
           "date": "2026-06-07T22:59:00Z",
+          "size": 213900000,
           "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-SE.ipa",
-          "size": 213900000
+          "minOSVersion": "14.0"
         }
       ]
     },
@@ -30,19 +31,19 @@
       "name": "UTM",
       "bundleIdentifier": "com.utmapp.UTM",
       "developerName": "Turing Software, LLC",
-      "subtitle": "Run Windows, Linux, and other operating systems.",
-      "localizedDescription": "UTM is a virtualization app for iOS 14.0+ built on QEMU.",
+      "subtitle": "Full desktop virtualization for iOS.",
+      "localizedDescription": "UTM runs Windows, Linux, and other operating systems on iOS using QEMU.",
       "iconURL": "https://i.imgur.com/piQ66nD.png",
       "tintColor": "#3c7cec",
       "category": "other",
       "screenshots": [],
-      "minOSVersion": "14.0",
       "versions": [
         {
           "version": "4.7.5",
           "date": "2026-06-07T22:58:00Z",
+          "size": 130100000,
           "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
-          "size": 130100000
+          "minOSVersion": "14.0"
         }
       ]
     },
@@ -50,19 +51,19 @@
       "name": "Flappy Bird",
       "bundleIdentifier": "org.brandonplank.flappybird",
       "developerName": "brandonplank",
-      "subtitle": "A simple Flappy Bird remake.",
-      "localizedDescription": "Open-source Flappy Bird clone for iOS 11.0+.",
+      "subtitle": "Classic Flappy Bird remake.",
+      "localizedDescription": "Open-source Flappy Bird clone for iOS 11+.",
       "iconURL": "https://i.imgur.com/32WNzoZ.png",
       "tintColor": "#7ce49c",
       "category": "other",
       "screenshots": [],
-      "minOSVersion": "11.0",
       "versions": [
         {
           "version": "4.3",
           "date": "2026-06-07T22:54:00Z",
+          "size": 2100000,
           "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.3/org.brandonplank.flappybird.ipa",
-          "size": 2100000
+          "minOSVersion": "11.0"
         }
       ]
     },
@@ -70,39 +71,39 @@
       "name": "OldOS",
       "bundleIdentifier": "com.zane.oldos",
       "developerName": "Zane Kleinberg",
-      "subtitle": "Classic iOS recreation experience.",
-      "localizedDescription": "OldOS recreates early iPhone OS UI for iOS 14.0+ devices.",
+      "subtitle": "Classic iOS simulator experience.",
+      "localizedDescription": "OldOS recreates early iPhone OS on modern devices.",
       "iconURL": "https://i.imgur.com/gfqniWg.png",
       "tintColor": "#000000",
       "category": "other",
       "screenshots": [],
-      "minOSVersion": "14.0",
       "versions": [
         {
           "version": "1.0",
           "date": "2026-06-07T22:51:00Z",
+          "size": 83200000,
           "downloadURL": "https://github.com/zzanehip/The-OldOS-Project/releases/download/2.0_7/OldOS.ipa",
-          "size": 83200000
+          "minOSVersion": "14.0"
         }
       ]
     },
     {
       "name": "iPogo",
-      "bundleIdentifier": "com.nianticlabs.pokemongo",
+      "bundleIdentifier": "com.ipogo.app",
       "developerName": "iPogo Team",
       "subtitle": "Enhanced Pokémon GO experience.",
-      "localizedDescription": "Modified Pokémon GO client with added features. iOS compatibility varies by version.",
+      "localizedDescription": "Modified Pokémon GO client with added gameplay tools.",
       "iconURL": "https://i.imgur.com/oadqZnW.png",
       "tintColor": "#2858d1",
       "category": "other",
       "screenshots": [],
-      "minOSVersion": "15.0",
       "versions": [
         {
           "version": "0.413.1",
           "date": "2026-06-07T22:48:00Z",
+          "size": 160800000,
           "downloadURL": "https://ipogo.app/download/ipogo-4.2.6.ipa",
-          "size": 160800000
+          "minOSVersion": "15.0"
         }
       ]
     }
